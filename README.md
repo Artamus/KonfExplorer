@@ -24,3 +24,10 @@ The appropriate static files to be deployed will be created in `/build/distribut
 2. In the suspending function to fetch videos I had to use the type 
  `Array<Video>` because otherwise the operation failed with the error
  `props.videos.iterator is not a function`.
+
+## Filesizes
+```
+196B May 11 23:02 index.html
+720K May 17 23:12 konfexplorer.js
+2.8M May 17 23:12 konfexplorer.js.map
+```
